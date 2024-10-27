@@ -1,0 +1,19 @@
+#autopilot-extension-root {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2147483647;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+#autopilot-extension-root * {
+  box-sizing: border-box;
+}
+
+/* Reset styles to prevent page CSS interference */
+#autopilot-extension-root button,
+#autopilot-extension-root input,
+#autopilot-extension-root div {
+  all: revert;
+  box-sizing: border-box;
+}
